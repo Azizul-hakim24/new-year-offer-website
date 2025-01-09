@@ -76,3 +76,90 @@
     color: #070211;
     margin-bottom: 56px;
 }
+/**===///--Wellcome party Style--//==**/
+.wellcome-party{
+    width: 1320px;
+    height:600px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
+    margin: 120px auto;
+    /* background-image: url('../images/Vectorrr.png'); */
+}
+.party-content .party-content-info{
+    margin: 126px 10px 126px 126px;
+}
+.party-content .party-content-info .party-subtitle{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    color:#FFFFFF;
+    margin-bottom: 24px;
+    width: 642px;
+}
+.party-content .party-content-info .party-descripiton{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    color:#FFFFFF;
+    margin-bottom: 48px;
+    width: 697px;
+}
+.party-content .party-content-info .party-title{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", serif;
+}
+.party-content .party-content-info .party-title a{
+    text-decoration: none;
+    color: white;
+}
+.party-content .party-img img{
+    padding: 68px 140px 68px 0px;
+    padding: 68px 140px 68px 0px;
+    width: 350px;
+    height: 464px;
+}
+.party-content{
+    display: flex;
+    justify-content: space-between;
+}
+/*===///---place-time Style---///==*/
+.place-time{
+    width: 1320px;
+    margin: 120px auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.place-time-content{
+    width: 550px;
+    margin: 0 auto;
+    padding: 100px 385px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.place-time-content .place-text-color{
+    font-size: 32px;
+    color: #FF0000;
+}
+.place-time-wrap .place-btn{
+    width: 112px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    margin-top: 20px;
+}
+.place-time-wrap .place-btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
