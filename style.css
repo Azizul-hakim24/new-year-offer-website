@@ -14,34 +14,16 @@
 }
 /*===///Header Style//==*/
 .header-bg{
-    width: 1320px;
-    height: 600px;
-    background-image: url('../images/Banner-Image.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
     border-radius: 16px;
-    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Banner-Image.png');
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) url('../images/Banner\ Image.png');
 }
-.header-wrap .header-content{
-    width: 632px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 177px 344px;
-   }
+.header-wrap .header-content{}
 .header-wrap .header-content .head-subtitle{
     font-family: "Merriweather", serif;
     font-weight: 400;
     Font-size: 32px;
     color: rgb(255, 255, 255);
-    margin-bottom: 16px;
 }
 .header-wrap .header-content .head-title{
-    font-family: "Merriweather", serif;
-    Font-weight: 900;
-    Font-size: 72px;
-    color: rgb(255, 255, 255);
-    text-align: center;
+
 }
