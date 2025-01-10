@@ -254,20 +254,15 @@
     text-align: center;
     width: 860px;
 }
-/* .holiday-imags{
-   width: 1320px; 
-   margin: 0 auto;
-   display: block;
-} */
 .holiday-imags{
     position: relative;
+    margin-top: -70px;
 }
 .holiday-imags .holi-imag-2 img{
     position: absolute;
-    margin-top: 16%;
+    margin-top: 20%;
 }
 .holiday-imags .holi-imag-3 img{
-    position: absolute;
     margin-top: 50%;
     z-index: -50;
 }
@@ -276,3 +271,36 @@
     margin-left: 75%;
     margin-top: 25%;
 }
+/*====///--Best gift style---////===*/
+.best-gift{
+    width: 1320px;
+    margin: 120px auto;
+    overflow: hidden;
+}
+.best-gift-info .gift-subtitle{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.best-gift-info .gift-title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-bottom: 22px;
+    color: #070211;
+}
+.best-gift-info .gift-discription{
+    width: 869px;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #070211;
+}
+.best-gift-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+}
+.best-gift-images .best-img{}
