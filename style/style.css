@@ -303,4 +303,55 @@
     gap: 20px;
     flex-wrap: wrap-reverse;
 }
-.best-gift-images .best-img{}
+/*====/////---subcripe style---/////===*/
+.subscripe{
+    width: 896px;
+    margin: 120px auto;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 212px;
+}
+.subscripe .subcripe-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subcripe-info .subcripe-title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-bottom: 22px;
+    margin-top: 40px;
+    color: #070211;
+}
+.subcripe-info .subcripe-description{
+    width: 896px;
+    font-size: 20px;
+    color: #070211;
+    margin-bottom:48px ;
+    text-align: center;
+}
+.subcripe-content .subcripe-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcripe-form input[type="email"]{
+    width: 270px;
+    height: 60px;
+    border: none;
+    padding: 0px 30px;
+    font-size: 17px;
+}
+.subcripe-form .subcripe-btn{
+    Width: 180px;
+    Height: 60px;
+    border-radius: 0px,50px,50px,0px;
+    background: rgb(255, 0, 0);
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+}
+.subcripe-form .subcripe-btn a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
