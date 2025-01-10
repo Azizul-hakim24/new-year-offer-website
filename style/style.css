@@ -163,3 +163,62 @@
     text-align: center;
     text-transform: uppercase;
 }
+/*===////---Best offer style---///===*/
+.best-offer{
+    width: 1320px;
+    margin: 120px auto;
+}
+.best-offer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.best-offer-content .offer-info{
+    width: 395px;
+    margin: 105px 70px;
+}
+.offer-info .offer-subtitile{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+.offer-info .offer-title{
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    color:#070211 ;
+    margin-bottom:22px ;
+}
+.offer-info .offer-driscirption{
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Merriweather", serif;
+    color: #373738;
+    margin-bottom: 40px;
+}
+.best-offer-content .offer-img{
+    border: 5px solid red;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 120px;
+}
+.best-offer-content .offer-img img{
+    width: 270px;
+    height: 270px;
+}
+.offer-date{}
+.offer-date .date-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 24px;
+}
+.offer-date .date-discription{
+    width: 276px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #070211;
+}
+.offer-date .offer-date-img{}
+.offer-date .offer-date-img img{}
